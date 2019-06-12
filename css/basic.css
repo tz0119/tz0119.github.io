@@ -1,0 +1,78 @@
+/* 这里写初始化样式代码 */
+/* 清除默认的marign和padding */
+body,
+p, 
+ul,ol,
+h1,h2,h3 ,h5,
+input,
+img {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 12px;
+}
+a {
+    color:#646464;
+    text-decoration: none;
+}
+a:hover {
+    color:#c81526;
+}
+input {
+    border:none;
+    outline: none;
+}
+img {
+    /* display: block; */
+    vertical-align: middle;
+}
+ul,ol {
+    list-style: none;
+}
+/* 浮动类 */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+/* 清除浮动造成的影响 */
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0px;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+/* 字体图标 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 版心类 */
+.w {
+    width: 1205px;
+    margin:0 auto;
+}
+
+/* 文字为红色类 */
+.fontColorRed {
+    color:#d8373a;
+}

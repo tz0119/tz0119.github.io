@@ -1,0 +1,279 @@
+body {
+    height: 2000px;
+}
+/* 顶部通知条 */
+.shorcut {
+    height: 38px;
+    background:#f3f3f3;
+}
+.shorcut .w {
+    height: 38px;
+    /* background:rgb(169,169,169); */
+}
+.sc_left {
+    height: 100%;
+    width: 472px;
+    /* background:tan; */
+}
+.shorcut .sc_left span {
+    line-height: 38px;
+}
+.shorcut .sc_left a {
+    line-height: 38px;
+    padding-left: 14px;
+    color: #80c196;
+}
+.shorcut .sc_right {
+    width: 68px;
+}
+.shorcut .sc_right .close_r {
+    font-size: 20px;
+    font-family: serif;
+    line-height: 38px;
+    cursor: pointer;
+}
+.shorcut .sc_right span:nth-child(1){
+    padding-left: 9px;
+    line-height: 38px;
+}
+
+/* 头部 */
+header {
+    height: 90px;
+    /* background: gray; */
+}
+header .w {
+    height: 100%;
+    /* background:#e7e7e7; */
+}
+.h_left {
+    width: 378px;
+    height: 100%;
+    background:rgb(169,169,200);
+}
+
+
+
+
+
+
+
+
+
+.h_right {
+    width: 412px;
+    height: 100%;
+    background: rgb(169,169,200);
+}
+
+/* nav轮播图 */
+#slider {
+    width: 100%;
+    height: 460px;
+    background: rgb(200,200,200);
+    /* overflow: hidden; */
+    position: relative;
+}
+#slider ul {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 9000px;
+}
+#slider ul li {
+    float: left;
+}
+#slider ol {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -20px;
+}
+#slider ol li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 10px;
+    color:tan;
+    cursor: pointer;
+}
+#slider ol li.current{
+    background:black;
+}
+
+/* product */
+.product {
+    height: 297px;
+    /* background: rgb(169,169,169); */
+    box-sizing: border-box;
+    padding-top:57px;   
+}
+.product .w {
+    height: 183.2px;
+    /* background: rgb(169,169,200); */
+}
+.product .w .box1 {
+    width: 344px;
+    height: 100%;
+    background: #80c196;
+}
+.product .w .box2 {
+    width: 344px;
+    height: 100%;
+    background: #80c196;
+    margin-left: 79px;
+}
+.product .w .box3 {
+    width: 344px;
+    height: 100%;
+    background: #80c196;
+    margin-left:94px;
+}
+/* envir5个li */
+.envir {
+    width: 100%;
+    height: 209px;
+    /* background:rgb(169,169,200) */
+}
+.envir ul li {
+    width: 19.7%;
+    float: left;
+    padding-left: 4px;
+}
+.envir ul li img {
+    width: 100%;
+    height: 100%;
+}
+/* product和programme */
+.des {
+    height: 142px;
+    /* background: #e7e7e7;; */
+}
+.des .w {
+    height: 100%;
+    /* background: rgb(140,150,150); */
+    box-sizing: border-box;
+    padding:71px 0;
+}
+.w .pro {
+    width: 404px;
+    height: 52px;
+    background:rgb(169,169,169);
+}
+.w .pro ul {
+    height: 100%;
+}
+.w .pro ul li {
+    float: left;
+    width: 202px;
+    height: 100%;   
+}
+/* .w .pro ul li:nth-child(1) {
+    background: #39a030;
+} */
+.w .pro ul li a{
+    font-size: 20px;
+    line-height: 52px;
+    margin-left: 25%;  
+}
+.w .pro .s {
+    background-color: #39a030;
+}
+.des .w .right {
+    line-height: 58px;
+    width: 226px;
+    height: 58px;
+    /* background: #80c196; */
+    font-size: 20px;
+    margin-top: -40px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+/* tab栏 */
+.tab {
+    width: 100%;
+    height: 1261px;
+    /* background: gray; */
+}
+.tab .w {
+    height: 1261px;
+    margin: 0 auto;
+    position: relative;
+}
+.tab .tab1 {
+    display: none;
+}
+.tab .tab1.selected {
+    display: block;
+}
+.tab ul li {
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+.tab ul li a{
+    display: inline-block;
+    width: 223px;
+    height: 124px;
+    background:#fff;
+}
+
+.w #xxoo {
+    width: 225px;
+    height: 175px;
+    background: #fff;
+    float: right;
+    margin-top: -861px;
+    position: relative;
+}
+.w #xxoo p {
+    font-size: 14px;
+    color: #666666;
+    padding: 18px 0 5px 20px;
+    line-height: 22px;
+}
+.w #xxoo img {
+   display: inline-block;
+   padding-left: 20px;
+}
+.w #xxoo i {
+    position: absolute;
+    left: 92px;
+    top: 76px;
+    background: url("../icons/icon-1.png") no-repeat -200px 0;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+    background: #39a030;
+}
+
+/* poplist */
+.butt {
+    width: 225px;
+    height: 779px;
+    background:#ffffff;
+    position: absolute;
+    right:0px;
+    top:195px;
+}
+.butt .poplist{
+    border-top: 1px solid gray;
+} 
+.butt h3 {
+    width: 226px;
+    height: 58px;
+    padding: 20px 0 5px 20px;
+    box-sizing: border-box;
+}
+.butt .poplist a img {
+    padding-left: 20px;
+}
+.poplist .popli1 {
+    margin-top: 20px;
+}
+.poplist .popli1 p {
+    margin-right: 85px;
+}
